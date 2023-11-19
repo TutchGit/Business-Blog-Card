@@ -1,0 +1,98 @@
+body {
+    background-color: #F2F5F9;
+  }
+  
+  #Card {
+    font-family: "Sora", sans-serif;
+    background-color: #ffffff;
+    width: 450px;
+    height: auto;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    border-radius: 10px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  }
+  
+  #ImageContainer {
+    position: relative;
+    display: inline-block;
+  }
+
+  #ImageContainer img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  #Overlay {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 76%;
+    left: 0;
+  }
+
+  #CardMainTitle {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 100px 20px 30px;
+  }
+  
+  #CardText {
+    font-size: 1rem;
+    color: #6c727f;
+    font-family: 'Lato', sans-serif;
+    margin: 0 0 30px 30px;
+  }
+
+  #CardAuthorBlock {
+    border-top: 1px solid #F2F5F9;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 25px 30px;
+  }
+
+  #CardAuthorAvatarContainer {
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+    background-color: #F2F5F9;
+    border-radius: 50%;
+    
+  }
+
+  #CardAuthorAvatarContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  #CardAuthorPresentation {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  #CardAuthorName {
+    font-weight: bolder;
+    margin: 0;
+  }
+
+  #CardAuthorText {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #677489;
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 425px) {
+    #Card {
+      width: 80%;
+    }
+  }
